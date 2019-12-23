@@ -1,3 +1,4 @@
+
 This is the libsonic Android NDK wrapper.  I, Bill Cox, wrote it in 2011, with
 the exception of AndroidAudioDevice.java, which was written by Mario Zechner,
 who posted it on his blog at
@@ -39,4 +40,20 @@ src/org/vinuxproject/AndroidAudioDevice.java
 
 If you don't have a libs directory in your project yet, create it using Eclipse.
 Then, import the libs directory from sonic-ndk into your libs directory.
+
+### My Modification
+-------
+
+> I forked this for changing build system to Gradle only.
+> And I put it into JitPack repository for make it easy to import later.
+> All credits go to Bill Cox.
+
+
+### Installation on Gradle
+--------------------------
+[![](https://jitpack.io/v/seanghay/sonic-ndk.svg)](https://jitpack.io/#seanghay/sonic-ndk)
+```groovy
+implementation('com.github.seanghay:sonic-ndk:1.0.3')
+```
+
 
